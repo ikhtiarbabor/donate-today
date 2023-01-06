@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.description {
+  font-size: 16px;
+  color: #909090;
+}
+.section-title {
+  color: #121212;
+  font-size: 38px;
+  font-weight: 700;
+}
+.btn {
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #ff5959;
+  color: #fff;
+  border: 0;
+  padding: 20px;
+}
+main {
+  width: 1185px;
+  margin: 0 auto;
+}
+
+/* banner-styles */
+.banner {
+  background-image: url('../images/donation7.jpg');
+  height: 640px;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin: auto;
+}
