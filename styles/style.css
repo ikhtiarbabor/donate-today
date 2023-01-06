@@ -1,6 +1,7 @@
 * {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  padding: 0;
 }
 .description {
   font-size: 16px;
@@ -41,7 +42,7 @@ main {
 }
 .banner-title {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 70px;
   color: #fff;
 }
 .banner-head-description {
@@ -148,6 +149,7 @@ main {
   display: flex;
   margin-top: 150px;
   align-items: center;
+  gap: 30px;
 }
 .your-donation-info {
   padding-right: 10px;
@@ -169,4 +171,8 @@ main {
   padding-top: 0;
   padding-bottom: 25px;
   line-height: 28px;
+}
+/* need us to survive styles */
+.need-survive-title {
+  padding-right: 170;
 }
