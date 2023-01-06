@@ -8,7 +8,7 @@
 }
 .section-title {
   color: #121212;
-  font-size: 38px;
+  font-size: 50px;
   font-weight: 700;
 }
 .btn {
@@ -59,6 +59,7 @@ main {
 .donate-count ul {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 60px;
 }
 .donate-count ul li {
   list-style: none;
@@ -82,4 +83,25 @@ main {
 }
 .donate-count ul li:hover a {
   color: #ff5959;
+}
+.other-amount {
+  display: block;
+  border: 0;
+  border-bottom: 2px solid #d2d0d0;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  color: #ff5959;
+  font-weight: 700;
+  font-size: 40px;
+}
+.other-amount:focus {
+  outline: none;
+}
+.other-amount::placeholder {
+  color: #d2d0d0;
+  font-size: 30px;
+}
+.donate-count .btn {
+  margin-top: 30px;
 }
