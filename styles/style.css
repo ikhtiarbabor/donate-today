@@ -143,3 +143,30 @@ main {
 .our-donate-description {
   padding: 30px 0;
 }
+/* depend on your donation styles */
+.your-donation-wrapper {
+  display: flex;
+  margin-top: 150px;
+  align-items: center;
+}
+.your-donation-info {
+  padding-right: 10px;
+}
+.your-donation-image {
+  max-height: 700px;
+  padding-right: 30px;
+}
+.your-donation-image img {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+}
+.your-donation-info .donation-description {
+  padding: 30px 0;
+  line-height: 28px;
+}
+.donation-description-padding {
+  padding-top: 0;
+  padding-bottom: 25px;
+  line-height: 28px;
+}
