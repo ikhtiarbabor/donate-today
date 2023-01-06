@@ -176,3 +176,50 @@ main {
 .need-survive-title {
   padding-right: 170;
 }
+/* Get My Updates styles */
+.updates-wrapper {
+  text-align: center;
+  padding: 150px 0;
+}
+.updates-wrapper input {
+  border-radius: 10px 0 0 10px;
+  font-size: 20px;
+  background-color: #d9d9d9;
+  color: #fff;
+  border: 0;
+  padding: 15px;
+  margin-top: 80px;
+}
+.updates-wrapper .btn {
+  border-radius: 0 10px 10px 0;
+  margin-top: 80px;
+}
+.updates-wrapper input:focus {
+  outline: none;
+}
+.update-input {
+  height: 200px;
+  background-color: #fff4d6;
+}
+.update-title {
+  padding-bottom: 35px;
+}
+.update-description-padding {
+  padding-bottom: 35px;
+}
+/* footer part */
+.footer-part {
+  text-align: center;
+  background-color: #0b0d17;
+}
+.footer-part h2,
+.footer-part p {
+  padding-top: 40px;
+}
+.footer-part h2 {
+  color: #ff5959;
+}
+.footer-part p {
+  color: #62646c;
+  padding-bottom: 40px;
+}
