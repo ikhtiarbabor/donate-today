@@ -12,15 +12,15 @@
   font-weight: 700;
 }
 .btn {
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: 20px;
   background-color: #ff5959;
   color: #fff;
   border: 0;
-  padding: 20px;
+  padding: 15px;
 }
 main {
-  width: 1185px;
+  width: 1170px;
   margin: 0 auto;
 }
 
@@ -32,4 +32,54 @@ main {
   background-color: rgba(0, 0, 0, 0.4);
   text-align: center;
   margin: auto;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 50px;
+  color: #fff;
+}
+.banner-head-description {
+  color: #fff;
+  margin: 35px;
+}
+.banner-description {
+  color: #d2d0d0;
+}
+
+/* donate today styles */
+.donate-today {
+  text-align: center;
+}
+.donate-title {
+  margin-top: 150px;
+}
+.today-description {
+  margin: 36px 0;
+}
+.donate-count ul {
+  display: flex;
+  justify-content: space-around;
+}
+.donate-count ul li {
+  list-style: none;
+  padding: 50px 20px;
+  background-color: #fafafa;
+  border: 2px solid #fafafa;
+  transition: 0.8s ease;
+}
+.donate-count ul li a {
+  color: #767676;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 40px;
+  transition: 0.8s ease;
+}
+.donate-count ul li:hover {
+  background-color: #ffeeee;
+  border: 2px solid #ff5959;
+  color: #ff5959;
+  border-radius: 5px;
+}
+.donate-count ul li:hover a {
+  color: #ff5959;
 }
